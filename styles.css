@@ -4,6 +4,7 @@ body
     background: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .header
@@ -36,11 +37,53 @@ body
     gap: 16px;
 }
 
+.container-main-content
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0);
+    justify-content: flex-start;
+}
+
+.container-1, .container-2, .testimonies
+{
+    height: 225px;
+}
+
+.container-1
+{
+    /*justify-content: flex-start;*/
+    background-color: #1F2937;
+    
+}
+
+.container-2
+{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.testimonies
+{
+    background-color:#E5E7EB;
+    
+}
+
+.call-to-action
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex: 1 1 100%;
+    /*height: 400px;*/
+}
+
 .footer 
 {
     height: 53px;
     /*font-family: Arial, Helvetica, sans-serif;*/
-    background-color: red;
+    background-color: #1F2937;
     /*RED BACKGROUND TEMPORARY*/
     color: #F9FAF8;
     font-size: 18px;
