@@ -5,6 +5,7 @@ body
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
 }
 
 .header
@@ -46,12 +47,67 @@ body
     justify-content: flex-start;
 }
 
-
 .container-1
 {
     background-color: #1F2937;
-    height: 175px;
-    
+    height: 215px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-subcontainer-1
+{
+    color: #F9FAF8;
+}
+
+h1
+{
+    text-align: left;
+}
+
+.left-subcontainer-1 p
+{
+    text-align: left;
+}
+
+.button-container-1
+{
+    background: #3882F6;
+    font-size: 16px;
+    padding: 12px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+button 
+{
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    margin: 0 auto;
+    padding: 2px 28px;
+    font-size: 16px;  
+    color: #F9FAF8;
+    cursor: pointer;
+}
+
+.cta-rectangle button
+{
+    background: #3882F6;
+    margin: 0 auto;
+    padding: 2px 28px;
+    font-size: 16px;  
+}
+
+.right-subcontainer-1
+{
+    height: 150px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
 }
 
 .container-2
@@ -102,8 +158,6 @@ body
     padding: 0%;
 }
 
-    
-
 .testimonies
 {
     padding: 0%;
@@ -122,6 +176,7 @@ body
     color: #1F2937;
     margin-top: 0px;
     margin-bottom: 18px;
+    margin-left: 220px;
 }
 
 .testimony-text-1
@@ -150,7 +205,26 @@ body
 {
     background-color: rgb(255, 255, 255);
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1 1 100%;
+}
+.cta-rectangle
+{
+    height: 80px;
+    width: 900px;
+    background-color: #3882F6;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.cta-rectangle > .button-container-1
+{
+    border: #F9FAF8 2px solid;
 }
 
 .footer 
